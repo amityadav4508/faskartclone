@@ -1,0 +1,131 @@
+@media screen and (max-width:1199px) {
+    .form-control, .btn-search {
+       display: none;     
+ }
+.nav2-icon{
+   position: relative;
+   bottom: 400px;
+}
+
+}
+
+
+ /* .location{
+    align-items: end;
+ } */
+
+
+
+
+ @media screen and (max-width:991px) {
+
+   h1{
+      font-weight: 600;
+      font-size: 30px;
+      color: var(--gray-color);
+   }
+   /* fruite section  */
+   .fruite-text{
+      padding-top: 50px;
+    }
+    .fruite{
+     height: 60vh;
+  }
+  /* combo offer section   */
+  .combo-offer{
+   position: absolute;
+   right: 50px;
+   text-align: left;
+ }
+ /* bank and payment card section  */
+ 
+  .payment-row{
+   margin-left: 20px;
+  }
+
+ .payment-logo{
+   position: relative;
+   margin-top: 20px;
+   height: auto;
+   width:130px;
+  } 
+
+  .paymet-card-text{
+   font-size: 20px;
+  }
+  .payment-p{
+  font-size: 14px;
+  margin-bottom:0px ;
+ 
+  }
+
+  .payment-img{
+   margin-top: 13px;
+  }
+
+  .coupan{
+   background: var(--gradiant-color);
+   position: relative;
+   right: 12px;
+   width: 100%;
+   padding: 8px;
+   border-radius: 0px 0px 15px 15px;
+  }
+
+  .coupan .coupan2 .coupan3 h5{
+   color: var(--white-color);
+   font-size: 15px;
+   margin-top: 10px;
+  }
+  .copy-code{
+   position: relative;
+   left: 30px;
+   background-color:  #c33e3e;
+   width: 120px;
+   padding-top: 6px;
+   border-radius: 5px;
+  }
+
+  .copy-code2{
+   position: relative;
+   left: 30px;
+   background-color:#3988a7;
+   width: 120px;
+   padding-top: 6px;
+   border-radius: 5px;
+   transition: 0.5s ease-out;
+  }
+  .copy-code3{
+   position: relative;
+   left: 30px;
+   background-color: var(--gradiant-color3);
+   width: 120px;
+   padding-top: 6px;
+   border-radius: 5px;
+   transition: 0.5s ease-out;
+  }
+
+  /* stopwatch  */
+  .stopwatch p{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 35px;
+   border: solid 2px gray;
+   
+  }
+ }
+    
+
+
+ @media screen and (max-width:768px) {
+  
+   .swiper-slide{
+      position: relative;
+    }
+    .combo-offer{
+      position: absolute;
+      right: 350px;
+      text-align: left;
+    }
+   
+ }
